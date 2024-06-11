@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Anthony's Web Services">
+    <meta property="og:title" content="Anthony's Web Services">
+    <meta property="og:description" content="We offer consulting services to create and maintain business websites.">
+    <meta property="og:image" content="./img/thumb.jpg">
+    <title>Anthony's Web Services</title>
+    <link href="./css/common.css" rel="stylesheet" type="text/css" />
+    <link href="./css/form.css" rel="stylesheet" type="text/css" />
+    <link href="./css/layout.css" rel="stylesheet" type="text/css" />
+    <link href="./css/type.css" rel="stylesheet" type="text/css" />
+    <link href="./css/index.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="./img/favi.png" type="image/x-icon"/>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V261S75YNV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-V261S75YNV');
+    </script>
+  </head>
+  <body id='js-body' class='body'>
+    <nav class='menu-wr'>
+      <div onclick='gotoHome()' class='menu'>Home</div>
+      <div onclick='handleScroll("js-content")' class='menu'>Services</div>
+      <div onclick='handleScroll("js-contact")' class='menu'>Contact</div>
+    </nav>
+    <div class='bg-wr'>
+      <img id='js-main-img-1' class='main-img-partial-bw' src='./img/banner-bw-m.jpg' />
+      <img id='js-main-img-2' class='main-img-partial-col' src='./img/banner-col-m.jpg' />
+      <img id='js-main-img-3' class='main-img-full' src='./img/banner-full-m.jpg' />
+    </div>
+    <header id='js-header' class='header'>
+      <div id='js-banner-wr' class='text-head-wr'>
+        <!-- <span class='text-head caret'>
+          <div class='select-up'></div>
+        </span> -->
+        <span id='js-type-01' class='text-head type-text'></span>
+        <!-- <br/> -->
+        <span id='js-space-01' class='text-head hidden'>&nbsp;</span>
+        <br id='js-next-01' class='hidden' />
+        <span id='js-type-02' class='text-head type-text'></span>
+        <span id='js-space-02' class='text-head hidden'>&nbsp;</span>
+        <br id='js-next-02' class='hidden' />
+        <span id='js-type-03' class='text-head type-text'></span>
+        <div id='js-link' class='link-details-wr'>
+          <div onclick='handleScroll("js-content")' class='link-details'><span id='js-link-details'>Details &gt;</span></div>
+          
+          <!-- <button onclick='handleScroll("js-content")' class='button-blue link-button'>Service Details &gt;</button> -->
+        </div>
+      </div>
+    </header>
+    <main id ='js-content' rol='content' class='layout-wr'>
+      <div class='two-col-wr'>
+        <div class='two-col-title'>
+          Anthony's<br/>Web Services
+        </div>
+        <div class='two-col-desc'>
+          We offer a personalized Web Starter Kit at a minimal cost, providing everything you need to jumpstart your website. With our service, you can present your business online with a custom domain in an ad-free environment within a couple of hours.
+        </div>
+      </div>
+
+      <div class='one-col-wr'>
+        <div class='one-col-title'>
+          How are we different?
+        </div>
+        <div class='tile-list-wr'>
+          <div class='tile-wr'>
+            <div class='tile thumb-design'>
+            <!-- <div class='tile'> -->
+              <img src='./icon/accessories.svg' />
+              <span class='tile-title'>
+                Pixel-Perfect Design<br/>
+              </span>
+              <span class='tile-text'>
+                Experience our Starter Kit featuring our original, signature sleek and modern design. Unlike templates commonly utilized by platforms such as WordPress or Bootstrap, our output is entirely unique. <br/><br/>
+                Your website will boast an exclusive and professional appearance, ensuring it stands out distinctly from the crowd.
+                <br/>
+              </span>
+            </div>
+          </div>
+          <div class='tile-wr'>
+            <div class='tile'>
+            <!-- <div class='tile thumb-branding'> -->
+              <img src='./icon/service.png' />
+              <span class='tile-title'>
+                Professional Branding<br/>
+              </span>
+              <span class='tile-text'>
+                Novice website creators often overlook critical features such as <a target='_blank' href='https://developer.mozilla.org/en-US/docs/Glossary/Semantics'>semantic design</a>, <a target='_blank' href='https://www.w3schools.com/html/html_responsive.asp'>mobile responsiveness</a>, <a target='_blank' href='https://www.ada.gov/resources/web-guidance/'>accessibility</a>, and <a target='_blank' href='https://developers.google.com/search/docs#what-is-seo '>SEO optimization</a>.<br/><br/>
+                
+                Our Starter Kit ensures your website meets the modern web standards while enhancing your business credibility. With a custom domain name and a polished appearance, our kit simplifies professional website development.                
+                <br/>
+              </span>
+            </div>
+          </div>
+          <div class='tile-wr'>
+            <div class='tile thumb-dollar'>
+              <img src='./icon/dollar-ak.jpg' />
+              <span class='tile-title'>
+                Zero Maintenance Costs<br/>
+              </span>
+              <span class='tile-text'>
+                Yes! We really mean <span class='tile-text-bold'>"Free"</span><br/><br/>
+                We guide you through deploying your website on <span class='tile-text-bold'>ad-free</span> and  <span class='tile-text-bold'>reliable</span> web hosting. Once we deliver your website, you have full ownership of your domain and website, giving you complete control over your online presence.<br/><br/>
+                The only optional ongoing expense is the annual domain registration (around $12 per year).                      
+                <br/>
+              </span>
+            </div>
+          </div>
+
+          
+        </div><!-- end of list-->
+      </div>
+
+      <div id='js-contact' class='contact-wr'>
+        <div id='js-notice-wr' class='notice-wr hidden'>
+          <div id='js-notice-success' class='notice hidden'>
+            Your request is successfully sent to Anthony.
+          </div>
+          <div id='js-notice-err' class='notice notice-err hidden'>
+            Sorry currently my message box is full. Please contact me via my email at anthony@anthonyspace.com
+          </div>
+        </div>  
+        <div class='sec-wr'>
+          <div class='sec-title mb-16px'>
+            <!-- Contact me -->
+            Request a service
+          </div>
+          <div class='sec-desc text'>
+            If you want to experience our web services, please fill out the form below or email us directly at
+            <a href='mailto:webservice@anthonyspace.com'>webservice@anthonyspace.com</a>
+
+            <!-- If you’re seeking expert guidance or exploring technology solutions, feel free to reach out to me at  or submit a form below. -->
+          </div>
+        </div>
+
+        <form id='js-contact-form' action='https://formspree.io/f/mrgnvzeo' method="POST" class='contact-form-wr'>
+          <div class="contact-form-row">
+            <div class="contact-form-text">
+              <input type='off' class='form-textbox-input' id='name' name='name' autocomplete='nope' placeholder='Your name' required aria-label='Enter name'>
+            </div>
+            <div class='contact-form-sp'></div>
+            <div class="contact-form-text">
+              <input type='email' class='form-textbox-input' id='email' name='email' autocomplete='off' placeholder='Email address' required aria-label='Enter email'>
+            </div>
+            <div class='contact-form-sp'></div>
+            <div class="contact-form-text form-dropdown dropdown-fader">
+              <select class="form-textbox-input form-dropdown-select" data-ignore-tracking="true" id="js-form-service" aria-labelledby="services-dropdown_label">
+                <option disabled selected="" value="">Select a service type</option>
+                <option class="services-dropdown-item" value="Starter Kit">Request Web Starter Kit</option>
+                <option class="services-dropdown-item" value="Consulting">Consulting service</option>
+                <option class="services-dropdown-item" value="Others">Others</option>
+              </select>
+            </div>
+          </div>
+          <textarea placeholder="Please briefly explain your business and website needs." class="form-textbox-input contact-form-textarea" name="message" rows="10" required></textarea>
+          <button type='submit' class='button-blue'>Send your request</button>
+        </form>
+      </div>
+    </main>
+    <footer class='footer'>
+      © 2024 Anthony's Web Services
+    </footer>
+
+  </body>
+<script type="text/javascript" src="./js/config.js"></script>
+<script type="text/javascript" src="./js/common.js"></script>
+<script type="text/javascript" src="./js/scroll.js"></script>
+<script type="text/javascript" src="./js/contact.js"></script>
+<script type="text/javascript" src="./js/type.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
+
+</html>
