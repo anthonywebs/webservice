@@ -128,7 +128,7 @@ const renderBanner = async () => {
 }
 
 const gotoHome = () => {
-  window.location.href = './index.html';
+  window.location.href = './';
 }
 
 const startEventListener = () => {
